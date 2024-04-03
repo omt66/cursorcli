@@ -1,0 +1,2 @@
+# cursorcli
+CLI cursor stuff
