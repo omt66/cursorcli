@@ -1,0 +1,34 @@
+{
+    "name": "cursorcli",
+    "version": "0.0.1",
+    "description": "Simple cursor manipulation for CLI",
+    "main": "./dist/index.js",
+    "directories": {
+        "example": "examples"
+    },
+    "scripts": {
+        "build": "tsc",
+        "publish": "npm run build && git push && npm publish",
+        "test": "npx mocha -r ts-node/register test/**/*"
+    },
+    "author": "omt66",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/omt66/cursorcli.git"
+    },
+    "keywords": [
+        "terminal",
+        "cli",
+        "cursor"
+    ],
+    "devDependencies": {
+        "@types/chai": "4.3.14",
+        "@types/mocha": "10.0.6",
+        "@types/node": "^20.12.3",
+        "chai": "5.1.0",
+        "mocha": "10.4.0",
+        "tsx": "4.7.1",
+        "typescript": "5.4.3"
+    }
+}
